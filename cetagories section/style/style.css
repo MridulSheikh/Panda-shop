@@ -1,0 +1,93 @@
+body{
+    background: #fff;
+}
+.result{
+ border-bottom: 1px solid #CCCCCC;
+ background: #fff;
+ display: flex;
+ justify-content: space-between;
+
+}
+.result p{
+    margin-left: 3%;
+    padding-top: 10px;
+}
+.result select{
+    width: 147px;
+    margin-right: 39px;
+    height: 27px;
+    margin-top: 10px;
+    font-size: 13px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+    border: none;
+}
+.result p small{
+    color: #C45500;
+    font-weight: 700;
+}
+/* ======================== side bar ============================== */
+.shooes{
+    background: #fff;
+    display: flex;
+    padding-bottom: 36px;
+}
+.image-banner img{
+         width: 100%;
+}
+.side-menu{
+    width: 20%;
+    border-right: 2px solid #CCCCCC ;
+}
+/* ================== shooes ========================= */
+.item-image img{
+ width: 400px;
+}
+.item{
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+    margin-left: 9%;
+    padding-right: 2%;
+    border-radius: 3px;
+    border-bottom: 2px solid #CCCCCC ;
+}
+.about h6{
+   margin-top: 8%;
+   font-weight: 500;
+}
+.star{
+    margin-top: 4%;
+}
+.about h3{
+    margin-top: 9%;
+    font-weight: 700;
+}
+.about p{
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(37, 37, 37, 0.295);
+}
+.item:hover{
+    cursor: pointer;
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.404);
+    border: none;
+}
+.about img{
+    width: 50px;
+}
+.about h3 a{
+    color:chocolate ;
+}
+.side-items ul li,
+.side-items a{
+list-style: none;
+text-decoration: none;
+ margin: 5px;
+ font-weight: 600;
+ color: rgba(0, 0, 0, 0.603) ;
+}
+.side-items ul li:hover a{
+    color: #C45500;
+
+}

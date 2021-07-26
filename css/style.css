@@ -394,6 +394,7 @@ nav{
     width: 200px;
     border: 2px solid #FF6801 ;
     text-align: center;
+    border-radius: 3px;
 }
 .load-more h4{
   margin-top: 9px;
