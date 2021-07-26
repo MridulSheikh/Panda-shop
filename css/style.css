@@ -259,7 +259,7 @@ nav{
 
 /* ========================== cetagories ================== */
 .cetagories{
-    margin-top: 2%;
+    margin-top: -1%;
     background: #EAEDED;
     padding: 20px;
 }
@@ -312,6 +312,7 @@ nav{
     background: #fff;
     padding-left: 33px;
     padding-right: 33px;
+    padding-bottom: 30px;
 }
 .card img{
     width: 231px;
@@ -375,11 +376,60 @@ nav{
     color: rgba(53, 51, 51, 0.397);
 }
 .star small{
-    margin-left: 83px;
+    margin-left: 72px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.26);
     font-size: 16px;
 }
 .time-zone span i{
     margin-right: 10px;
+}
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.load-more{
+    width: 200px;
+    border: 2px solid #FF6801 ;
+    text-align: center;
+}
+.load-more h4{
+  margin-top: 9px;
+  color: #424242;
+}
+.load-more:hover{
+    background:#FF6801 ;
+    cursor: pointer;
+}
+footer{
+    background: #323233;
+    color: #fff;
+    margin-bottom: -30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contect,
+.location{
+    margin:46px ;
+
+}
+.contect i,
+.location i{
+    margin-right: 8px;
+}
+.location p{
+ margin-left: 26px;
+}
+.contect h5,
+.location h5{
+    color:#FF6801 ;
+}
+.contect h6 i{
+ margin-left: 8px;
+ margin-right: 3px;
+}
+.contect small{
+    color: #FF6801 ;
 }
