@@ -39,9 +39,17 @@ body{
     width: 20%;
     border-right: 2px solid #CCCCCC ;
 }
+.image-banner{
+    border-top: 2px solid #FF6400;
+
+}
 /* ================== shooes ========================= */
-.item-image img{
+.item-image{
  width: 400px;
+}
+.item-image img{
+    width: 300px;
+    height: 250px;
 }
 .item{
     width: 100%;
@@ -55,6 +63,7 @@ body{
 .about h6{
    margin-top: 8%;
    font-weight: 500;
+   font-size: 18px;
 }
 .star{
     margin-top: 4%;
@@ -73,9 +82,6 @@ body{
     box-shadow:0px 5px 15px rgba(0, 0, 0, 0.404);
     border: none;
 }
-.about img{
-    width: 50px;
-}
 .about h3 a{
     color:chocolate ;
 }
@@ -90,4 +96,10 @@ text-decoration: none;
 .side-items ul li:hover a{
     color: #C45500;
 
+}
+.item{
+    align-items: center;
+}
+.about{
+    margin-left: 15px;
 }
